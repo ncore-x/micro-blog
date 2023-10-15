@@ -7,8 +7,12 @@ name = "pypi"
 flask-wtf = "*"
 email-validator = "*"
 flask-sqlalchemy = "*"
+flask-bcrypt = "*"
+flask-login = "*"
+werkzeug = "==2.0.2"
+sqlalchemy = "==1.4.23"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.9"
